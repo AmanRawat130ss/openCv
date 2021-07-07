@@ -6,7 +6,7 @@ import cv2 as cv
 
 cap = cv.VideoCapture('video/b.mp4')
 while True:
-    frame = cap.read()
+    isTrue,frame = cap.read()
    
     cv.imshow('video',frame)
 
